@@ -1,0 +1,34 @@
+{
+  "name": "DemoRS",
+  "version": "1.0.0",
+  "description": "compare with react-select1 and react-select2",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev & webpack-dev-server --mode development",
+    "dev": "webpack --config webpack.config.js --mode development"
+  },
+  "keywords": [
+    "react-select"
+  ],
+  "author": "Sheldon Sun",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-select": "^1.2.1",
+    "react-select": "^2.0.0-beta.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
